@@ -21,7 +21,7 @@ So after the steps above, I will be able to get the symbolic command. I create a
 
 The way I label the command is that I create a function called found_the_address. It's a boolean function and will return true if the address from the address_list matches the address of current command. Therefore, my logic is if the address from the list is the address of command from the commad_map, print out the address and command, otherwise, simply print out the command. 
 
-Another error handling is to check the string that cannot be disassembled. The way I do this is when I convert the binary code to symbolic command, I will check field if it's valid. If it's not valid, I will print the address and that string out. 
+Another error handling is to check the string that cannot be disassembled. The way I do this is when I convert the binary code to symbolic command, I will check field if it's valid. If it's not valid, I will print the address and that string out to the command window. 
 
 
  
